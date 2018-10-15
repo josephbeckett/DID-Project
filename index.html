@@ -11,47 +11,47 @@
     <link type="text/css" rel="stylesheet" href="assets/stylesheet.css"  media="screen,projection"/>
     <!-- Import anitmated Hamburger menu -->
     <link href="assets/dist/hamburgers.css" rel="stylesheet">
-
-
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   </head>
-<!-- Start of body -->
-  <body>
+  <!-- Start of body -->
+    <body>
 
-<!-- Page loading transition -->
-
-<!-- Video Background -->
-
-<!-- Header -->
-<ul id="slide-out" class="sidenav">
-  <li><div class="user-view">
-    <div class="background">
-      <img src="images/office.jpg">
+  <!-- Page loading transition -->
+  <div class="preloader-background big active">
+    <div class="spinner-layer spinner-blue">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
     </div>
-    <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-    <a href="#name"><span class="white-text name">John Doe</span></a>
-    <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-  </div></li>
-  <li><a href="#!">Home</a></li>
-  <li><a href="#!">Signup</a></li>
-  <li></li>
-  <li><div class="divider"></div></li>
-  <li><a class="subheader">Subheader</a></li>
-  <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-  </ul>
-  <button data-target="slide-out" class="hamburger hamburger--emphatic sidenav-trigger" type="button">
-  <span class="hamburger-box">
-    <span class="hamburger-inner"></span>
-  </span>
-</button>
-  <!-- <button><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></button> -->
+  </div>
+  <!-- Video Background -->
+  <video playsinline autoplay muted loop id="bgvid">
+    <source src="assets/CosmicShores.mp4" type="video/mp4">
+  </video>
+  <!-- Header -->
+  <nav class="transparentBG z-depth-0">
+    <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down left">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="signup.php">Sign Up</a></li>
+          <li><a href="login.php">Login</a></li>
+        </ul>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="signup.php">Sign Up</a></li>
+            <li><a href="login.php">Login</a></li>
+        </ul>
+    </div>
+  </nav>
+
   <!-- Content -->
-<div class="container">
-
-</div>
-
 
 
 
