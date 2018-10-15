@@ -19,16 +19,18 @@
     <body>
 
   <!-- Page loading transition -->
-  <div class="preloader-background big active">
-    <div class="spinner-layer spinner-blue">
-      <div class="circle-clipper left">
-        <div class="circle"></div>
-      </div><div class="gap-patch">
-        <div class="circle"></div>
-      </div><div class="circle-clipper right">
-        <div class="circle"></div>
+  <div class="preloader-background">
+      <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-yellow-only">
+              <div class="circle-clipper left">
+              <div class="circle"></div>
+              </div><div class="gap-patch">
+              <div class="circle"></div>
+              </div><div class="circle-clipper right">
+              <div class="circle"></div>
+              </div>
+          </div>
       </div>
-    </div>
   </div>
   <!-- Video Background -->
   <video playsinline autoplay muted loop id="bgvid">
